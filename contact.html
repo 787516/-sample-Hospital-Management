@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Hospital Management</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">Shree Hospital</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" style="font-weight: bold;" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" style="font-weight: bold;" >About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="departments.html" style="font-weight: bold;" >Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="doctors.html" style="font-weight: bold;" >Doctors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="appointment.html" style="font-weight: bold;" >Appointment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" style="font-weight: bold;" >Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5 bg-light p-5">
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" class="form-control" id="phone" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+
+      <h2 class="mt-5">Contact Information</h2>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: info@hospitalname.com</p>
+
+      <h2 class="margin-bottom:20px, mt-5">Location</h2>
+      <div id="map" style="height: 300px; width: 100%">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509198!2d144.9537353153165!3d-37.81627997975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11f5b1%3A0x5045675218ceed30!2sYour%20Location!5e0!3m2!1sen!2sau!4v1616161616161!5m2!1sen!2sau"
+          width="100%"
+          height="450"
+          style="border: 0; margin-bottom: 10rem"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <footer class="footer" style="border: 0; margin-top: 14rem">
+      <div class="container">
+        <p>Emergency Contact: <strong>(123) 456-7890</strong></p>
+        <p>&copy; 2023 Hospital Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

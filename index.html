@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand " href="#" style="margin-left: 15px;" >Shree Hospital</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link fw-bold" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="departments.html">Departments</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="doctors.html">Doctors</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="appointment.html">Appointment</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="hero-image">
+            <!-- <img src="./images/hospitalBuilding.jpg" alt="Hospital Hero Image" class="img-fluid"> -->
+        </div>
+        <div class="hero-text">
+            <h1>Welcome to Our Hospital</h1>
+            <p>Your health is our priority.</p>
+        </div>
+    </header>
+
+<section class="quick-links py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Quick Links</h2>
+  <div class="d-flex justify-content-center flex-wrap gap-5 text-center">
+      
+      <div  href="departments.html"  class="quick-links col-md-3 mb-4 ">
+        <img src="./images/appointment-booking-with-calendar.png" alt="appointment" class="quick-img mb-3">
+        <a  href="departments.html" class="btn w-100 fs-5 fw-bolder ">Book Appointment</a>
+      </div>
+
+      <div  href="departments.html" class="quick-links col-md-3 mb-4">
+        <img src="./images/—Pngtree—an isometric representation of a_15707431.png" alt="departments" class="quick-img mb-3">
+        <a href="departments.html" class="btn w-100 fs-5 fw-bolder">Departments</a>
+      </div>
+
+      <div href="contact.html" class="quick-links col-md-3 mb-4">
+        <img src="./images/—Pngtree—customer service concept with a_8644423.png" alt="contact" class="quick-img mb-3">
+        <a href="contact.html" class="btn  w-100 fs-5 fw-bolder">Contact Us</a>
+      </div>
+
+    </div>
+  </div>
+
+
+   <section class="testimonials py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Patient Testimonials</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active position-relative text-white">
+          <img src="./images/slide1.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Hospital Building">
+          <div class="carousel-caption d-flex align-items-center justify-content-center" style="background: rgba(0,0,0,0.5); height: 100%;">
+            <p class="lead">"Great service and caring staff!"</p>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative text-white">
+          <img src="./images/slide2.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Hospital Building">
+          <div class="carousel-caption d-flex align-items-center justify-content-center" style="background: rgba(0,0,0,0.5); height: 100%;">
+            <p class="lead">"I felt safe and well taken care of during my stay."</p>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative text-white">
+          <img src="./images/slide3.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Hospital Building">
+          <div class="carousel-caption d-flex align-items-center justify-content-center" style="background: rgba(0,0,0,0.5); height: 100%;">
+            <p class="lead">"Highly recommend this hospital for its excellent care."</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+        <span class="sr-only text-dark">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+        <span class="sr-only text-dark">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+</section>
+   <section class="services py-5 mb-5">
+  <div class="container px-0">
+    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="row g-4 ">
+      
+      <div class="col-md-4">
+        <div class="card ">
+          <img src="./images/emergenci.jpg" class="card-img" alt="Emergency Care">
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h5 class="card-title text-light">Emergency Care</h5>
+            <p class="card-text text-light">24/7 emergency services available.</p>
+            <p class="card-text text-light"><small>Available around the clock</small></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card ">
+          <img src="./images/outpatient.jpg" class="card-img" alt="Outpatient Services">
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h5 class="card-title text-light">Outpatient Services</h5>
+            <p class="card-text text-light">Comprehensive outpatient care.</p>
+            <p class="card-text text-light"><small>Personalized treatments</small></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card ">
+          <img src="./images/inpaitent.jpg" class="card-img" alt="Inpatient Services">
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h5 class="card-title text-light">Inpatient Services</h5>
+            <p class="card-text text-light">Comfortable inpatient facilities.</p>
+            <p class="card-text text-light"><small>Round-the-clock care</small></p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Emergency Contact: <strong>(123) 456-7890</strong></p>
+            <p>&copy; 2023 Hospital Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
